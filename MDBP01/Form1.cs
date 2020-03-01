@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace MDBP01
 {
-    public partial class Form1 : Form
+    public partial class FrmSplash : Form
     {
-        public Form1()
+        public FrmSplash()
         {
             InitializeComponent();
         }
