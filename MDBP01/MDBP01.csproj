@@ -85,11 +85,6 @@
     <Compile Include="MediaPlayer.Designer.cs">
       <DependentUpon>MediaPlayer.cs</DependentUpon>
     </Compile>
-    <Compile Include="MusicDataSet.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>MusicDataSet.xsd</DependentUpon>
-    </Compile>
     <Compile Include="NewPlaylist.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -131,17 +126,6 @@
     <EmbeddedResource Include="View.resx">
       <DependentUpon>View.cs</DependentUpon>
     </EmbeddedResource>
-    <None Include="MusicDataSet.xsc">
-      <DependentUpon>MusicDataSet.xsd</DependentUpon>
-    </None>
-    <None Include="MusicDataSet.xsd">
-      <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>MusicDataSet.Designer.cs</LastGenOutput>
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="MusicDataSet.xss">
-      <DependentUpon>MusicDataSet.xsd</DependentUpon>
-    </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
