@@ -51,6 +51,7 @@
             this.Controls.Add(this.pictureBox1);
             this.Name = "FrmSplash";
             this.Text = "Splash";
+            this.Load += new System.EventHandler(this.FrmSplash_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
